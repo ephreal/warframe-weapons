@@ -1,0 +1,54 @@
+.nav-color {
+    background-color: #ccc;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    border: 1px solid black;
+}
+
+.nav-link active {
+    background-color: #777;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.weapon-button {
+    background-color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.weapon-button:hover {
+    cursor: pointer;
+}
+
+.weapon-button--checkbox {
+    display: none;
+}
+
+.progenitorCard {
+    background-color: white;
+    width: 250px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
