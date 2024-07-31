@@ -2,8 +2,8 @@
 Name=Warframe Weapon Tracker
 StartupWMClass=warframe-weapon
 Comment=Warframe Lich/Sister Weapon Tracker
-GenericName=SR3E Character Tool
-Exec=WEBKIT_DISABLE_COMPOSITING_MODE=1 /usr/bin/warframe-weapons
+GenericName=Warframe Weapon Tracker
+Exec=env WEBKIT_DISABLE_COMPOSITING_MODE=1 /usr/bin/warframe-weapons
 Icon=/opt/warframe-weapons.png
 Type=Application
 Categories=Games;
