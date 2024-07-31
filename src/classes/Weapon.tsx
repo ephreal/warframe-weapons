@@ -6,7 +6,7 @@ class Weapon {
     constructor(name: string) {
         this.isChecked = false;
         this.weaponName = name;
-        this.weaponImage = `/src/assets/weapons/${this.weaponName}.png`
+        this.weaponImage = `/assets/weapons/${this.weaponName}.png`
     }
 
     toggleAvailability() {

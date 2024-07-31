@@ -7,7 +7,7 @@ import ElementButton from "./ElementButton";
 
 const Progenitors = () => {
     const [progenitors, setProgenitors] = useState<Progenitor[]>([...progenitorList]);
-    const [currentElement, setElement] = useState("All");
+    const [currentElement, setElement] = useState("Cold");
 
     const handleElementImageClick = (element: string) => {
         setElement(element);

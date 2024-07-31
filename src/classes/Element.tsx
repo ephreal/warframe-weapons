@@ -4,6 +4,6 @@ export class Element {
 
     constructor(name: string) {
         this.name = name;
-        this.image = `/src/assets/elements/${this.name}.png`;
+        this.image = `/assets/elements/${this.name}.png`;
     }
 }

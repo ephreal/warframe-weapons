@@ -7,7 +7,7 @@ export class Progenitor {
     constructor(name: string, element: string) {
         this.name = name;
         this.element = element;
-        this.image = `/src/assets/warframes/${this.name}.png`;
-        this.elementImage = `/src/assets/elements/${this.element}.png`;
+        this.image = `/assets/warframes/${this.name}.png`;
+        this.elementImage = `/assets/elements/${this.element}.png`;
     }
 }
