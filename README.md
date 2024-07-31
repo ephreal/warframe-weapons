@@ -1,6 +1,14 @@
-# Tauri + React + Typescript
+# Warframe Weapon Tracker
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Have you ever been trying to track which Lich or Sister of Parvos weapons you've seen while hunting for a specific weapon, and then ran out of ink, paper, patience, or just plain forgot which ones you've already seen? I can confidently say I've done one of those things.
+
+No more will you need lists written on paper! No mare will your memory fail you! No more will your ink-stained hand knock over your cup of freshly brewed Jasmine tea (two tea-spoons of sugar, stirred precisely 10 times) when you go to grab your mouse! Not even shall you fall to the depridations of memory loss, for this program will remember all for you (provided all you need to remember is which weapons you've seen in the past several minutes). Simply open the app and click on the weapons you've seen. It tracks it for you!
+
+## Usage
+
+I you're on Linux, simply download the executable from the releases tab, and run. While I hope there are no additional dependencies required, there may be. If you happen to run into any, please open an issue with which distribution you're on, and the steps you took to resolve it. I'll link to the steps from here.
+
+If you're on Windows, proceed below and follow the compilation steps. I don't have a windows device to compile on.
 
 ## Recommended IDE Setup
 
@@ -22,7 +30,7 @@ Open the code directory in a terminal and install the node packages
 npm install
 ```
 
-now verify that you can run the project
+and verify that you can run the project.
 
 ```
 npm run tauri dev
