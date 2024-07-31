@@ -29,7 +29,7 @@ const Progenitors = () => {
 
     return (
         <div className="tab-pane" role="tabpanel" id="progenitors">
-            <div className="d-flex flex-row flex-wrap justify-content-center">
+            <div className="d-flex flex-row flex-wrap justify-content-center my-2 elements-bar">
                 {
                     elements.map((element, index) => (
                         <ElementButton

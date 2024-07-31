@@ -9,7 +9,7 @@ interface ElementButton {
 const ElementButton: React.FC<ElementButton> = ({ element, onElementImageClick }) => {
     return (
         <button className="element-button" onClick={() => onElementImageClick(element.name)}>
-            <img src={element.image} alt={element.name} />
+            <img src={element.image} alt={element.name} width="50px"/>
         </button>
     );
 };
