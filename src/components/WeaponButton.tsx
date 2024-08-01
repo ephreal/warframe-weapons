@@ -1,23 +1,18 @@
-import { useState } from "react";
+import { FC } from "react";
 import Weapon from "../classes/Weapon";
 
-export default function WeaponButton (weapon: Weapon, weaponList: Array<Weapon>, stateFunc: CallableFunction, callback: CallableFunction) {
+interface WeaponButtonProps {
+    weapon: Weapon;
+    updateFunc: CallableFunction;
+}
 
-    const [isChecked, setIsChecked] = useState(weapon.isChecked);
-
-    function toggle() {
-        callback(stateFunc, weaponList, weapon);
-        setIsChecked(weapon.isChecked);
-    }
+const WeaponButton: FC<WeaponButtonProps> = ({weapon, updateFunc}) => {
         return (
-            <div className="weapon-button mb-2 px-2" style={weapon.isChecked ? {opacity: "0.5"} : {}} onClick={ () => {toggle()} }>
+            <div className="weapon-button mb-2 px-2" style={weapon.isChecked ? {opacity: "0.5"} : {}} onClick={ () => {updateFunc(weapon.weaponName)} }>
                 {weapon.weaponName}
                 <img src={weapon.weaponImage} width="100px" draggable="false" alt={weapon.weaponName} />
-                <input
-                    className="weapon-button--checkbox"
-                    type="checkbox"
-                    checked={isChecked}
-                    onChange={() => callback(stateFunc, weaponList, weapon)}/>
             </div>
         );
 }
+
+export default WeaponButton;
