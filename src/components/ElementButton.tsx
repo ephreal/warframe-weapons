@@ -4,13 +4,14 @@ import { Element } from "../classes/Element";
 interface ElementButton {
     element: Element;
     onElementImageClick: (element: string) => void;
+    currentElement: string;
 }
 
-const ElementButton: React.FC<ElementButton> = ({ element, onElementImageClick }) => {
+const ElementButton: React.FC<ElementButton> = ({ element, onElementImageClick, currentElement }) => {
     return (
-        <button className="element-button" onClick={() => onElementImageClick(element.name)}>
+        <div className={`element-button p-1 ${currentElement == element.name ? "element-button--selected" : ""}`} onClick={() => onElementImageClick(element.name)}>
             <img src={element.image} alt={element.name} width="50px"/>
-        </button>
+        </div>
     );
 };
 

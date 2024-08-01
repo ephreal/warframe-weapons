@@ -35,17 +35,18 @@ const Progenitors = () => {
                         <ElementButton
                             key={index}
                             element={element}
+                            currentElement={currentElement}
                             onElementImageClick={handleElementImageClick}
                         />
                     ))
                 }
             </div>
+            <h3 className="d-flex justify-content-center text-white">{currentElement} Progenitors</h3>
             <div className="d-flex flex-row flex-wrap justify-content-around">
                 {progenitors.map((progenitor, index) => (
                     <ProgenitorCard
                         key={index}
                         progenitor={progenitor}
-                        onElementImageClick={handleElementImageClick}
                         currentElement={currentElement}
                     />
                 ))}
