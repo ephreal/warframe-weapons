@@ -28,8 +28,8 @@ const Progenitors = () => {
 
 
     return (
-        <div className="tab-pane" role="tabpanel" id="progenitors">
-            <div className="d-flex flex-row flex-wrap justify-content-center my-2 elements-bar">
+        <div className="tab-pane progenitor-tab pt-2" role="tabpanel" id="progenitors">
+            <div className="d-flex flex-row flex-wrap justify-content-center elements-bar">
                 {
                     elements.map((element, index) => (
                         <ElementButton
@@ -41,8 +41,7 @@ const Progenitors = () => {
                     ))
                 }
             </div>
-            <h3 className="d-flex justify-content-center text-white">{currentElement} Progenitors</h3>
-            <div className="d-flex flex-row flex-wrap justify-content-around">
+            <div className="d-flex flex-row flex-wrap justify-content-around mt-5">
                 {progenitors.map((progenitor, index) => (
                     <ProgenitorCard
                         key={index}
