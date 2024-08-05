@@ -19,7 +19,8 @@ If you're on Windows, proceed below and follow the compilation steps. I don't ha
 
 First, ensure that you have the following installed
 
- - Rust (with Cargo)
+ - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+ - [Rust (with Cargo)](https://www.rust-lang.org/tools/install)
  - NPM
 
 After those are installed, download the source code in any way that makes sense for your (zip, tar.gz, using git, etc).
