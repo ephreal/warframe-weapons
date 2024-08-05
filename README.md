@@ -40,7 +40,7 @@ npm run tauri dev
 If you're able to run the projct, you're ready to build
 
 ```
-cargo tauri build
+npm ruan tauri build
 ```
 
 The executable will be saved to
