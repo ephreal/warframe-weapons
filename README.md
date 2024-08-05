@@ -53,7 +53,7 @@ The compiled executable should be stored at
 src-tauri/target/release/warframe-weapons
 ```
 
-## Compiling on Windows
+### Compiling on Windows
 
 First, ensure that you have the following installed
 
