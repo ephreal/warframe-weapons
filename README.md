@@ -14,6 +14,44 @@ If you're on Windows, proceed below and follow the compilation steps. I don't ha
 
 - [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
+## Building From Source
+
+### Linux
+
+Building from source on Linux has been tested and is known to be working. Ensure you have the following dependencies installed.
+
+  - Rust
+  - NPM
+  - Webkit2GTK
+
+The installation will vary depending on your distribution. Here is an install command for Archlinux
+
+```
+pacman -Syu rust npm webkit2gtk
+```
+
+Once the dependencies have been installed, clone or otherwise download the source code for this repository. Open a terminal and navigate to the directory you have the code in. From the root of the warframe-weapons directory, run the following command.
+
+```
+npm install
+```
+
+Once the install completes, run the development app to ensure that everything is working
+
+```
+npm run tauri dev
+```
+
+Assuming the run completes, compile the app
+
+```
+cargo tauri build
+```
+
+The compiled executable should be stored at
+```
+src-tauri/target/release/warframe-weapons
+```
 
 ## Compiling on Windows
 
@@ -40,13 +78,13 @@ npm run tauri dev
 If you're able to run the projct, you're ready to build
 
 ```
-npm ruan tauri build
+npm run tauri build
 ```
 
 The executable will be saved to
 
 ```
-src-tauri/target/release/warframe-weapons
+src-tauri/target/release/warframe-weapons.exe
 ```
 
 Use the exe to run locally without having to open a terminal every time.
