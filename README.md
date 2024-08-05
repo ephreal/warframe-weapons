@@ -59,7 +59,7 @@ First, ensure that you have the following installed
 
  - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
  - [Rust (with Cargo)](https://www.rust-lang.org/tools/install)
- - [NPM](https://nodejs.org/download/release/)
+ - [NodeJS with NPM](https://nodejs.org/en/download/prebuilt-installer)
 
 After those are installed, download the source code in any way that makes sense for your (zip, tar.gz, using git, etc).
 
