@@ -9,7 +9,7 @@ interface ProgenitorCardProps {
 const ProgenitorCard: React.FC<ProgenitorCardProps> = ({ progenitor, currentElement }) => {
     var visible = (progenitor.element === currentElement);
     return (
-        <div className={`progenitorCard d-flex flex-column justify-content-centered mb-2 px-2 mx-1 text-gold ${!visible ? 'd-none' : ''}`}>
+        <div className={`progenitorCard d-flex flex-column justify-content-centered mb-2 px-2 mx-1 pt-1 text-gold ${!visible ? 'd-none' : ''}`}>
             <div className="d-flex flex-row justify-content-around w-100">
                 <img className="progenitorCard-image" src={progenitor.image} alt={progenitor.name} />
             </div>
