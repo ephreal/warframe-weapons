@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Progenitors from "../components/Progenitors";
 import WeaponPage from "./WeaponPage";
 import { kuva, tenet } from "../static/weapons";
-import ValenceCalculator from "./ValenceCalculator";
 
 interface AppProps {
 
