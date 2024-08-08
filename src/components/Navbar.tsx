@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <ul className="nav nav-tabs justify-content-center">
+        <ul className="nav nav-tabs navbar justify-content-center">
             <li className="nav-item">
                 <a className="nav-link nav-color active" data-bs-toggle="tab" data-bs-target="#kuva" role="tab" aria-controls="kuva" aria-selected="true" href="#kuva">Kuva</a>
             </li>

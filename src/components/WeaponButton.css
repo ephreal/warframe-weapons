@@ -1,0 +1,86 @@
+.weapon-button {
+    background-color: rgb(27, 42, 59);
+    height: 170px;  
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: flex-end;
+    align-items: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    color: white;
+    border: 2px outset rgb(27, 42, 59);
+}
+
+.weapon-button:hover {
+    cursor: pointer;
+}
+
+.weapon-button--wanted {
+    border: 2px outset gold;
+}
+
+.weapon-button--selected {
+    border: 2px inset #444;
+    opacity: 75%;
+}
+
+.weapon-button--image {
+    width: 100px;
+}
+
+/* Really small screens */
+@media only screen and (max-width: 480px) {
+    .weapon-button {
+        width: 90%;
+        height: 250px;
+
+    }
+    
+    .weapon-button--image {
+        width: 180px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .weapon-button {
+        width: 22%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .weapon-button {
+        width: 13%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .weapon-button {
+        width: 13%;
+    }
+    
+    .weapon-button--image {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    .weapon-button {
+        width: 9.1%;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+    .weapon-button {
+        width: 13%;
+        display: relative;
+    }
+    
+    .weapon-button--text {
+        font-size: 1.25em;
+        /* position: absolute; */
+    }
+
+}

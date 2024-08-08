@@ -13,7 +13,7 @@ const App: React.FC<AppProps> = ({}) => {
         <>
             {/* <h1 className="text-center text-light">Warframe Weapon Tracker</h1> */}
             <Navbar />
-            <section className="tab-content h-100">
+            <section className="tab-content app-content">
                 <WeaponPage
                     weaponList={kuva}
                     pageId="kuva"

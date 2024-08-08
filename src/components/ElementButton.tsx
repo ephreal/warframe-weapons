@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "../classes/Element";
+import './ElementButton.css';
 
 interface ElementButton {
     element: Element;

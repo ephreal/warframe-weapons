@@ -1,5 +1,6 @@
 import React from "react";
 import { Progenitor } from "../classes/Progenitor";
+import './ProgenitorCard.css';
 
 interface ProgenitorCardProps {
     progenitor: Progenitor;
