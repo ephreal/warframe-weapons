@@ -20,7 +20,7 @@ const WeaponButton: FC<WeaponButtonProps> = ({weapon, updateFunc, wantedFunc}) =
                         weapon.isAvailable ? {} : {opacity: "0.5"}
                     }
                 />
-                <p className={`weapon-button--image text-center weapon-button--text ${weapon.isAvailable ? "text-gold" : "text-grey"}`}>
+                <p className={`weapon-button--image weapon-button--text ${weapon.isAvailable ? "text-gold" : "text-grey"}`}>
                     {weapon.weaponName}
                 </p>
             </div>

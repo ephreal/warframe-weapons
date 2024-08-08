@@ -17,4 +17,5 @@
 .progenitor-tab {
     background-image: url("/assets/backgrounds/progenitors.png");
     height: 100%;
+    background-size: cover;
 }
