@@ -1,6 +1,7 @@
 .progenitorCard {
     background-color: rgb(27, 42, 59);
-    width: 200px;
+    flex: 1 1 200px;
+    max-width: 220px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -11,11 +12,17 @@
 }
 
 .progenitorCard-image {
-    width: 175px;
+    width: 100%;
+    height: auto;
+}
+
+.progenitor-cards {
+    overflow-y: auto;
 }
 
 .progenitor-tab {
     background-image: url("/assets/backgrounds/progenitors.png");
-    height: 100%;
+    /* height: 100%; */
     background-size: cover;
+    background-attachment: fixed;
 }

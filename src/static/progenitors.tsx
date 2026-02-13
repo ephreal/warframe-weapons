@@ -24,6 +24,8 @@ export var progenitorList: Array<Progenitor> = [
     new Progenitor("Kullervo", "Heat"),
     new Progenitor("Nezha", "Heat"),
     new Progenitor("Protea", "Heat"),
+    new Progenitor("Temple", "Heat"),
+    new Progenitor("Uriel", "Heat"),
     new Progenitor("Vauban", "Heat"),
     new Progenitor("Wisp", "Heat"),
     new Progenitor("Baruuk", "Impact"),
@@ -60,4 +62,6 @@ export var progenitorList: Array<Progenitor> = [
     new Progenitor("Nidus", "Toxin"),
     new Progenitor("Oberon", "Toxin"),
     new Progenitor("Saryn", "Toxin"),
+    new Progenitor("Nokko", "Toxin"),
+    new Progenitor("Oraxia", "Toxin"),
 ]

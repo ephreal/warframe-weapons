@@ -28,7 +28,7 @@ const Progenitors = () => {
 
 
     return (
-        <div className="tab-pane progenitor-tab pt-2" role="tabpanel" id="progenitors">
+        <div className="container-fluid progenitor-tab d-flex flex-column vh-100 pt-2" role="tabpanel" id="progenitors">
             <div className="d-flex flex-row flex-wrap justify-content-center elements-bar">
                 {
                     elements.map((element, index) => (
@@ -41,7 +41,7 @@ const Progenitors = () => {
                     ))
                 }
             </div>
-            <div className="d-flex flex-row flex-wrap justify-content-around mt-5">
+            <div className="progenitor-cards flex-grow-1 d-flex flex-wrap justify-content-center mt-3">
                 {progenitors.map((progenitor, index) => (
                     <ProgenitorCard
                         key={index}
