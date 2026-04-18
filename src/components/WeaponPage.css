@@ -1,0 +1,17 @@
+.reset-button {
+    background-color: rgb(27, 42, 59);
+    border: 2px outset rgb(27, 42, 59);
+}
+
+.reset-button:active {
+    background-color: rgb(27, 42, 59);
+    border: 2px inset rgb(27, 42, 59);
+}
+
+.reset-button:hover {
+    background-color: rgb(32, 47, 64);
+}
+
+.weapon-page {
+    flex-grow: 1;
+}

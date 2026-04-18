@@ -28,7 +28,7 @@ const Progenitors = () => {
 
 
     return (
-        <div className="tab-pane container-fluid progenitor-tab flex-column vh-100 pt-2" role="tabpanel" id="progenitors">
+        <div className="tab-pane progenitor-tab flex-column pt-2 h-100" role="tabpanel" id="progenitors">
             <div className="d-flex flex-row flex-wrap justify-content-center elements-bar">
                 {
                     elements.map((element, index) => (

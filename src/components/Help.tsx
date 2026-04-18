@@ -72,8 +72,8 @@ const Help = () => {
                     <main className="col-md-9 py-4 px-4">
 
                         <HelpSection id="general-process" title="General Process">
-                            <p>To start, you need an Adversary: a Lich for Kuva weapons, a Sister of Parvos for Tenet weapons, or a Technocyte Coda for Coda weapons.</p>
-                            <p>Once acquired, your adversary takes over part of the star chart. Run those missions until they appear, then stab them to gather intel. Eventually they flee to a Railjack mission.</p>
+                            <p>To start, you need an Adversary: a Kuva Lich for Kuva weapons, a Sister of Parvos for Tenet weapons, or a Technocyte Coda for Coda weapons. Refer to the section for <a href="#kuva-lich">Kuva Liches</a>, <a href="#sister-of-parvos">Sisters of Parvos</a>, or <a href="#technocyte-coda">Technocyte Codas</a> for more information on how to acquire them.</p>
+                            <p>Once acquired, your adversary takes over part of the star chart, starting on Earth for a Kuva Lich, Venus for a sister of Parvos, and 1999 missions for a Technocyte Coda. Run these missions to gather intel by performing mercy kills on Kuva Thralls/Sister Hounds/Codas. When you successfully perform a secret mercy with the correct requiem mod order (antivirus mod for codas), your adversary will flee to a Railjack mission: Saturn for Kuva Liches, Neptune for Sisters of Parvos, and Earth for a Technocyte Coda.</p>
                             <p>Defeat them there to choose: <span className="help-gold fw-semibold">Vanquish</span> (claim their weapon) or <span className="help-blue fw-semibold">Convert</span> (trade them or add them to your Railjack crew).</p>
                         </HelpSection>
 

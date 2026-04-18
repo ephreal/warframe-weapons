@@ -17,29 +17,6 @@ html, body {
     height: 100%;
 }
 
-.navbar {
-    flex: 0 1 auto;
-}
-
-.nav-color {
-    background-color: #ccc;
-    color: black;
-}
-
-.nav-link {
-    color: black;
-    border: 1px solid black;
-}
-
-.nav-link active {
-    background-color: #777;
-}
-
-.nav-link:hover {
-    background-color: #fff;
-    color: black;
-}
-
 .weapon-page {
     background-size: cover;
     height: 100%;

@@ -2,6 +2,7 @@ import React from "react";
 
 import Weapon from "../classes/Weapon";
 import WeaponButton from "./WeaponButton";
+import "./WeaponPage.css";
 
 
 interface WeaponPageProps {
@@ -80,11 +81,8 @@ const WeaponPage: React.FC<WeaponPageProps> = ({weaponList, pageId, isActive, ba
                 } 
             }
         >
-            <section className="d-flex flex-column">
-                <section className="controls d-flex flex-column justify-content-center align-items-center">
-                    <button className="my-2 px-5 py-3 w-50" onClick={() => reset()}>Reset</button>
-                    <h3 className="text-center text-white">{remaining}/{weapons.length}</h3>
-                </section>
+            <section className="d-flex flex-column h-100">
+                <h3 className="text-center text-white">{remaining}/{weapons.length}</h3>
                 <div className="d-flex flex-row flex-wrap justify-content-evenly">
                     {
                         weapons.map((weapon: Weapon, index) =>
@@ -97,6 +95,9 @@ const WeaponPage: React.FC<WeaponPageProps> = ({weaponList, pageId, isActive, ba
                         )
                     }
                 </div>
+                <section className="controls d-flex flex-column justify-content-center align-items-center mt-auto">
+                    <button className="my-1 px-2 py-2 w-50 reset-button text-gold" onClick={() => reset()}>Reset</button>
+                </section>
             </section>
         </div>
     );
