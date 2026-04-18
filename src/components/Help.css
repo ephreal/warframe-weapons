@@ -36,7 +36,7 @@
 
 .help-sidebar-label {
     color: #e8b84b;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -91,7 +91,7 @@
 
 .help-section-body {
     line-height: 1.75;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
 }
 
 .help-gold { color: #e8b84b; }
@@ -130,7 +130,7 @@
     --bs-table-color: #c9d1d9;
     --bs-table-border-color: rgba(232,184,75,0.15);
     --bs-table-striped-color: #c9d1d9;
-    font-size: 0.88rem;
+    font-size: 0.95rem;
 }
 
 .help-table thead th {

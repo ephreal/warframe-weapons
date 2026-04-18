@@ -1,6 +1,6 @@
 [package]
 name = "warframe-weapons"
-version = "1.0.4"
+version = "1.0.6"
 description = "A tracker for Lich and Sister of Parvos weapons"
 authors = ["ephreal"]
 edition = "2021"
