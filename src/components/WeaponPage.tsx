@@ -73,7 +73,7 @@ const WeaponPage: React.FC<WeaponPageProps> = ({weaponList, pageId, isActive, ba
     sortByName(weapons);
 
     return (
-        <div className={isActive ? "tab-pane weapon-page active" : "weapon-page tab-pane"} role="tabpanel" id={pageId}
+        <div className={isActive ? "tab-pane weapon-page active" : "tab-pane weapon-page"} role="tabpanel" id={pageId}
             style={
                 {
                     backgroundImage: background

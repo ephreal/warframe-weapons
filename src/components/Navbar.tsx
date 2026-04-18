@@ -10,6 +10,9 @@ function Navbar() {
             <li className="nav-item">
                 <a className="nav-link nav-color" data-bs-toggle="tab" data-bs-target="#progenitors" href="#progenitors">Progenitors</a>
             </li>
+            <li className="nav-item">
+                <a className="nav-link nav-color" data-bs-toggle="tab" data-bs-target="#help" href="#help">Help</a>
+            </li>
         </ul>
     );
 }

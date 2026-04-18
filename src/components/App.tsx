@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Progenitors from "../components/Progenitors";
 import WeaponPage from "./WeaponPage";
+import Help from "./Help";
 import { kuva, tenet } from "../static/weapons";
 
 interface AppProps {
@@ -27,6 +28,7 @@ const App: React.FC<AppProps> = ({}) => {
                     backgroundImage="sister of parvos.png"
                 />
                 <Progenitors />
+                <Help />
             </section>
         </>
     );

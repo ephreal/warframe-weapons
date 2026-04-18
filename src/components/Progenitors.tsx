@@ -23,12 +23,12 @@ const Progenitors = () => {
 
         console.log(updatedProgenitors === progenitors);
 
-        setProgenitors(updatedProgenitors); // Update state with new array
+        setProgenitors(updatedProgenitors);
     };
 
 
     return (
-        <div className="container-fluid progenitor-tab d-flex flex-column vh-100 pt-2" role="tabpanel" id="progenitors">
+        <div className="tab-pane container-fluid progenitor-tab flex-column vh-100 pt-2" role="tabpanel" id="progenitors">
             <div className="d-flex flex-row flex-wrap justify-content-center elements-bar">
                 {
                     elements.map((element, index) => (
