@@ -12,6 +12,7 @@ export var progenitorList: Array<Progenitor> = [
     new Progenitor("Banshee", "Electricity"),
     new Progenitor("Caliban", "Electricity"),
     new Progenitor("Excalibur", "Electricity"),
+    new Progenitor("Follie", "Electricity"),
     new Progenitor("Gyre", "Electricity"),
     new Progenitor("Limbo", "Electricity"),
     new Progenitor("Nova", "Electricity"),
