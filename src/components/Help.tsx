@@ -8,7 +8,7 @@ const Help = () => {
             <div className="help-header px-4 py-3 mb-0">
                 <div className="d-flex align-items-center gap-2 mb-1">
                     <div className="help-accent-bar" />
-                    <h1 className="help-title m-0">Operator Guide</h1>
+                    <h1 className="help-title m-0">Guide</h1>
                 </div>
                 <p className="text-secondary ms-3 mb-0 small">
                     A quickstart guide to efficient Lich, Sister, and Coda completion. For full details, consult the{" "}
